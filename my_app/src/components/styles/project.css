@@ -226,9 +226,12 @@ textarea{
 }
 
 @media screen and (max-width: 524px) { 
-
+    .mintSection {
+        height: 90vh;
+    }
     .mintSection p { 
         text-align: center;
+        font-size: 14px;
     }
 
     /* .divide, .card, .main_Card, .contactDiv, .mintSection { 
@@ -249,7 +252,7 @@ textarea{
         margin: 5rem 0;
     }
     .project_Card { 
-        width: fit-content;
+        width: 120%;
     }
   
 }
