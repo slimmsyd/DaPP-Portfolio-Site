@@ -294,7 +294,7 @@ h4 {
         text-align: center;
     }.body {
         height: 100vh;
-        justify-content: center;
+        padding-bottom: 32rem;
 
     }
     .heading_Contents {
