@@ -6,7 +6,9 @@
     --navSize: 24px;
   }
 
-
+.body { 
+    height: 100vh;
+}
 
 .whatIDo {
     display: flex;
@@ -237,6 +239,7 @@ textarea{
         margin-left: 5rem;
     } */
     .main_Card { 
+        width: fit-content;
         flex-direction: column;
     }
     .empty { 
@@ -245,7 +248,10 @@ textarea{
     .project_subCard {
         margin: 5rem 0;
     }
- 
+    .project_Card { 
+        width: fit-content;
+    }
+  
 }
 
 /* MOBILE RESPONSIVENSS */
