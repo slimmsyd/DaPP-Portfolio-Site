@@ -182,6 +182,7 @@ h4 {
     height: 80vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 .skill_Card {
@@ -305,6 +306,9 @@ h4 {
 
 
 @media screen and (max-width: 524px) { 
+    .clear {
+        display: none !important;
+    }
 
     .development {
         width: 100%;
@@ -312,6 +316,10 @@ h4 {
 
     .skills_Image { 
         display: inline;
+    }
+    .skills { 
+        align-items: stretch;
+        padding-top: 20rem;
     }
 
     .skill_Card { 

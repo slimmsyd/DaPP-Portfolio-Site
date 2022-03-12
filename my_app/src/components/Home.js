@@ -105,7 +105,7 @@ const itemToScroll = useRef(null);
           </section>
     
     
-          <section className = "divide">
+          <section className = "divide clear">
                 <div className = "divideLine"></div>
               </section>
     
