@@ -182,14 +182,17 @@ transition: all ease-in-out 0.5s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
 .email { 
     height: 25px;
     border: 3px solid #F9F9F9;
     border-radius: 5px;
+    max-width: 100%;
+
 }
 input[type = email]:focus { 
-    outline: 2px solid var(--MainColor)
+    outline: 2px solid var(--MainColor);
 }
 input[type = submit] { 
     margin-top: 25px;
@@ -210,6 +213,8 @@ input[type = submit]:hover {
 textarea{ 
     border: 3px solid #F9F9F9;
     border-radius: 5px;
+    max-width: 100%;
+
 }
 
 
