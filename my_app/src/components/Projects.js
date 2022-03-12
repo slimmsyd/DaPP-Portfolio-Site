@@ -2,7 +2,7 @@ import './styles/project.css';
 import AppImage from '../Images/MusicPlayerApp.PNG';
 import MintSite from '../Images/MintChildishNFT.png';
 import React, {useState} from 'react';
-
+import Skils from '../Images/Skills.png';
 
 export default function Project() { 
     const [button, setButton] = useState(false)

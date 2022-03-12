@@ -25,6 +25,13 @@ html {
     
 }
 
+/* SKILLS IMG */
+.skills_Image { 
+    display: none;
+}
+
+/* SKILLS IMG */
+
 .home_Header img { 
     width: 70%;
     object-fit: contain;
@@ -264,10 +271,10 @@ h4 {
 /* MOBILE RESPONSIVESNESS */
 @media  screen and (max-width: 1440px) {
     .home_Header h1{
-        font-size: 64px;
+        font-size: 54px;
     }
      h2 {
-        font-size: 54px !important;
+        font-size: 36px !important;
     }
     .home_Header h3 {
         font-size:  24px;
@@ -293,7 +300,13 @@ h4 {
 
 
 @media screen and (max-width: 524px) { 
+    .skills_Image { 
+        display: inline;
+    }
 
+    .skill_Card { 
+        display: none;
+    }
     .card { 
         max-width: 210px;
     }

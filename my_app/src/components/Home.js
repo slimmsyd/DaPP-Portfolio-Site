@@ -9,6 +9,7 @@ import Nodes from '../Images/Nodes.png';
 import Web from '../Images/Web.png';
 import Shape from '../Images/EllipseShape.png';
 import PolyGon from '../Images/PolyGon.png';
+import Skils from '../Images/Skills.png';
 
 import Twitter from '../Images/Twitter.png';
 import Instagram from '../Images/Instagram.png';
@@ -113,6 +114,8 @@ const itemToScroll = useRef(null);
               <div className = "whatIDo">
               <h2>Skills </h2>
             </div>
+              <img className = "skills_Image" src = {Skils}/>
+            
                 <div className = "skill_Card">
                     <div className = "card">
                       <div className = "card1">
