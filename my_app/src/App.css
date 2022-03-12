@@ -7,7 +7,9 @@
   }
 
 /* HEADING */
-
+.body_Wrapper {
+    margin: 0 3rem
+}
 html {
     scroll-behavior: smooth;
 }
@@ -165,11 +167,16 @@ h4 {
 
 .skills {
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .skill_Card {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: max-content;
 
 }
 
@@ -257,7 +264,7 @@ h4 {
 /* MOBILE RESPONSIVESNESS */
 @media  screen and (max-width: 1440px) {
     .home_Header h1{
-        font-size: 72px;
+        font-size: 64px;
     }
      h2 {
         font-size: 54px !important;
@@ -286,6 +293,24 @@ h4 {
 
 
 @media screen and (max-width: 524px) { 
+
+    .card { 
+        max-width: 210px;
+    }
+
+.subCard { 
+    font-size: 14px;
+    width: 100%;
+
+}
+.heading_Contents { 
+    align-items: center;
+    justify-content: center;
+}
+.heading_Contents button { 
+    max-width: 350px;
+}
+
     .mintSection img { 
         display: none;
     }
@@ -309,7 +334,7 @@ h4 {
     }
 }
 
-@media screen and (max-height: 640px) { 
+@media screen and (max-height: 990px) { 
     .divide { 
         padding-bottom: 15rem;
         height: 50vh !important;

@@ -24,7 +24,7 @@ const itemToScroll = useRef(null);
 
 
     return (
-        <>
+        <div className='body_Wrapper' >
           <Nav />
         <section className = "home">
         <div className = "home_Header">
@@ -232,7 +232,7 @@ const itemToScroll = useRef(null);
             <MintButton />
             <Contact />
     
-        </>
+        </div>
       );
     }
 
