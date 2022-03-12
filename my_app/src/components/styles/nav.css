@@ -1,0 +1,136 @@
+
+
+:root { 
+    --MainColor: #222222;
+    --MainFont: 'Poppins', sans-serif;
+    --descriptonColor: rgba(169, 163, 163, 1);  
+    --navSize: 24px;
+  }
+
+
+
+.nav { 
+    font-family:var(--MainFont) ;
+    color: var(--MainColor);
+    font-size: var(--navSize);
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    box-shadow: 0px 8px 4px rgba(173, 167, 167, 0.25);
+    justify-content: space-between;
+}
+#lightModeClick { 
+    transform: translateY(6px);
+}
+
+.ulNav {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.ulFlexRow { 
+    display: flex;
+    flex-direction: column;
+    flex-direction: 2;
+
+}.ulFlex2 { 
+    display: flex;
+    justify-content: center;
+}
+.liNav { 
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    color: var(--MainColor)
+}
+.liNav button {
+    border: none;
+    background-color: transparent;
+    font-size: var(--navSize);
+    font-family: var(--MainFont);
+    color : var(--MainColor);
+    cursor: pointer;
+}
+.liNav img { 
+    transform: translateY(4px);
+}
+.connectWalletDiv { 
+    width: 400px;
+}
+.connectWallet {
+    margin: 0px 2rem
+}
+._navigation { 
+    padding: 0px 1.5rem 0px 1.5rem;
+}
+.afterLine::before {
+    content: "";
+    height: 4.3px;
+    width: 5rem;
+    background-color: #222222;
+    position: absolute;
+    transform: translate(-3.5px,2.2rem);
+    transition: transform ease 0.5s;
+}
+
+.afterLineTrans::before { 
+    content: "";
+    height: 4.3px;
+    width: 5rem;
+    background-color: #222222;
+    position: absolute;
+    transform: translate(6.3rem,2.2rem);
+    transition: transform ease 0.5s;
+}
+
+.polyConnect {
+    transition: all ease 0.5s;
+}
+.selected { 
+    transform: rotate(180deg) !important;
+
+}
+
+/* DIVER SECTION */
+
+.divide {
+    padding-top: 10rem;
+    display: flex; 
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.divideLine { 
+    width: 550px;
+    height: 5px;
+    background-color: #434343;
+}
+
+/* DIVER SECTION */
+
+
+/* SECTION BODDY */
+
+/* MOBILE RESPONSIVNESS */
+.menu-Burger { 
+    display: none;
+}
+
+ @media screen and (max-width:  997px) {
+
+    .menu-Burger { 
+        display: flex;
+    }
+    .ulNav {
+        justify-content: flex-end;
+    }
+.liNav button, .polyConnect, .ulFlex2 {
+
+    display: none;
+}
+     
+ }
+
+
+/* MOBILE RESPONSIVNESS */
