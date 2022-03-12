@@ -11,7 +11,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.home { 
+    padding-bottom: 10rem;
+}
 .home_Header { 
     display: flex;
     min-height: 90vh;
@@ -264,9 +266,6 @@ h4 {
         font-size:  24px;
     }
 
-    .explore { 
-        
-    }
     
 }
   @media screen and (max-width: 900px) {
@@ -279,15 +278,19 @@ h4 {
   @media screen and (max-width:  997px) {
     .heading_Contents { 
         padding-left: 0;
-        margin-left: 5rem;
+    }
+    .home_Header { 
+        max-width: 100%;
     }
   }
 
 
 @media screen and (max-width: 524px) { 
+    .mintSection img { 
+        display: none;
+    }
     .main_Contents, .whatIDo { 
         flex-direction: column;
-        margin-left: 5rem;
         text-align: center;
     }.body {
         height: 100vh;
@@ -304,8 +307,20 @@ h4 {
         align-items: center;
         justify-content: center;
     }
-
-
-
 }
+
+@media screen and (max-height: 640px) { 
+    .divide { 
+        padding-bottom: 15rem;
+        height: 50vh !important;
+    }
+    .body { 
+        padding: 5rem 0 ;
+    }
+  
+    .whatIDo { 
+        margin-bottom: 10rem;
+    }
+}
+
 /* MOBILE RESPONSIVESNESS */

@@ -26,35 +26,38 @@ const itemToScroll = useRef(null);
     return (
         <>
           <Nav />
+        <section className = "home">
+        <div className = "home_Header">
     
-          <div className = "home_Header">
-    
-            <div className = "heading_Contents">
-              <p>Hi! There !</p>
-                <span id ="line"></span>
-               <h1>I'm Sydney Sanders</h1>
-                <h2> Front-End Developer </h2>
-                <h3>I Like To Keep Things Very Minimal.</h3>
-                <button onClickCapture={() => itemToScroll.current.scrollIntoView()} className = "explore">
-                    Explore My Work
-                  </button>
-    
-              </div>
-            <div className = "imageSphere">
-              <img src = {Sphere} />
-    
-              </div>
-    
-            <div className = "socials">
-              <ul>
-                <li><img src = {Facebook}></img></li>
-                <li><img src = {Twitter}></img></li>
-                <li><img src = {Instagram}></img></li>
-              </ul>
-              
-              </div>
-    
-            </div>
+    <div className = "heading_Contents">
+      <p>Hi! There !</p>
+        <span id ="line"></span>
+       <h1>I'm Sydney Sanders</h1>
+        <h2> Front-End Developer </h2>
+        <h3>I Like To Keep Things Very Minimal.</h3>
+        <button onClickCapture={() => itemToScroll.current.scrollIntoView()} className = "explore">
+            Explore My Work
+          </button>
+
+      </div>
+    <div className = "imageSphere">
+      <img src = {Sphere} />
+
+      </div>
+
+    <div className = "socials">
+      <ul>
+        <li><img src = {Facebook}></img></li>
+        <li><img src = {Twitter}></img></li>
+        <li><img src = {Instagram}></img></li>
+      </ul>
+      
+      </div>
+
+    </div>
+
+        </section>
+        
     
             <section className = "divide">
                 <div className = "divideLine"></div>

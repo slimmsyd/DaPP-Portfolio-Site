@@ -229,9 +229,13 @@ textarea{
         text-align: center;
     }
 
-    .divide, .card, .main_Card, .contactDiv, .mintSection { 
+    /* .divide, .card, .main_Card, .contactDiv, .mintSection { 
         margin-left: 5rem;
-    }
+    } */
+
+    /* .divide { 
+        margin-left: 5rem;
+    } */
     .main_Card { 
         flex-direction: column;
     }
