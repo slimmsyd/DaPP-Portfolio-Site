@@ -232,9 +232,11 @@ textarea{
 }
 
 @media screen and (max-width: 524px) { 
-    .mintSection {
-        height: 90vh;
+
+    .mintSection { 
+        padding-top: 0;
     }
+  
     .mintSection p { 
         text-align: center;
         font-size: 14px;

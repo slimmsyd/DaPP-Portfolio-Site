@@ -5,11 +5,18 @@ import DarkMode from '../Images/DarkmodePoly.png';
 import PolyConnect from '../Images/PolyConnectWallet.png';
 import menu from '../Images/BurgerMenu.png';
 import {Link }  from 'react-router-dom'
+
+import Twitter from '../Images/Twitter.png';
+import Instagram from '../Images/Instagram.png';
+import Facebook from '../Images/FaceBook.png';
+
 import App from '../App';
 
 export default function Nav() { 
     const [polyConnect, setPolyConnect] = useState(false);
-    const [line, setLine] = useState(false);
+    const [line, setLine] = useState(false); 
+    const [navigation, setNavigation] = useState(false);
+    
     function setTrue() {
      setPolyConnect(true)
      console.log(polyConnect)
@@ -25,12 +32,19 @@ export default function Nav() {
         setLine(false);
     }
 
-
-
-    useEffect(() => { 
+    function showNav() {
+        setNavigation(true);
+        if(navigation) { 
+            console.log("Its true")
+            setNavigation(false)
+            
+        }else { 
+            console.log("its false now")
+        }
         
-    }, [moveLine])
-  
+    }
+
+
 
 
 
@@ -69,8 +83,27 @@ export default function Nav() {
             <li className = "liNav connectWallet ">
                 
                 {/* Display WHen ViewPort Gets Smaller */}
-                <div className = "menu-Burger">
+                <div onClick={showNav}   className = "menu-Burger">
                     <img src = {menu} />
+                </div>
+
+                <div  className = {`hamburger_Div ${navigation ? 'hamburger_Div_Shown' : "" }`}>
+                        <ul className = "navLinks">
+                            <li><Link to ="/" className='liNav'>Home</Link></li>
+                        </ul>
+                        <ul className = "navLinks">
+                            <li><Link to ="/blog" className='liNav'>Blogs</Link></li>
+                        </ul>
+                        <ul className='navLinks'>
+                            <li><img src = {Facebook} /></li>
+                        </ul>
+                        <ul className = "navLinks" >
+                            <li><img src = {Twitter} /></li>
+                        </ul>
+                        <ul className = "navLinks">
+                            <li><img src = {Instagram} /></li>
+                        </ul>
+
                 </div>
 
                     <button

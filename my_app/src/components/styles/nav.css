@@ -110,18 +110,53 @@
 
 /* DIVER SECTION */
 
-
 /* SECTION BODDY */
+
+
 
 /* MOBILE RESPONSIVNESS */
 .menu-Burger { 
     display: none;
 }
+.hamburger_Div {
+    display: none;
+
+}
+
+
 
  @media screen and (max-width:  997px) {
 
+    .hamburger_Div { 
+        top: 15vh;
+        left: 0;
+        display: none;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: all ease-in-out 0.5s;
+    }
+    .navLinks { 
+        font-size: 4rem;
+        flex-basis: 5rem;
+        list-style-type: none;
+    
+    }
+
+    .hamburger_Div_Shown { 
+        transform: translate(0%,0%);
+    }               
+
     .menu-Burger { 
         display: flex;
+        z-index: 1;
+        cursor: pointer;
     }
     .ulNav {
         justify-content: flex-end;
@@ -130,6 +165,13 @@
 
     display: none;
 }
+     
+ }
+
+ @media screen and (max-width: 524px) {
+     .navLinks { 
+         font-size: 24px;
+     }
      
  }
 

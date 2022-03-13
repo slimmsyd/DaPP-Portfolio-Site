@@ -288,6 +288,15 @@ h4 {
 
     
 }
+@media screen and (max-width: 912px) {
+    .development { 
+        width: 100%;
+    }
+    .development img  { 
+        object-fit: cover;
+    }
+    
+}
   @media screen and (max-width: 900px) {
       .socials, .imageSphere { 
           display: none;
@@ -306,6 +315,15 @@ h4 {
 
 
 @media screen and (max-width: 524px) { 
+
+    .explore { 
+        width: 100%;
+    }
+
+    .home { 
+     padding-bottom: 0;
+    }
+
     .clear {
         display: none !important;
     }
@@ -319,7 +337,6 @@ h4 {
     }
     .skills { 
         align-items: stretch;
-        padding-top: 20rem;
     }
 
     .skill_Card { 
@@ -371,8 +388,7 @@ h4 {
         padding-bottom: 30rem;
     }
   
-    .whatIDo { 
-    }
+   
 }
 
 /* MOBILE RESPONSIVESNESS */

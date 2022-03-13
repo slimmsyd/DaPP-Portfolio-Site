@@ -8,7 +8,7 @@ import Circle from '../Images/Group3.png';
 export default function Aritlce1() { 
 
     return(
-        <div class = "body_Wrapper">
+        <>
         
         <Nav />
         <div className = "wrapper">
@@ -46,7 +46,7 @@ export default function Aritlce1() {
 
             </section>
             
-</div>
+</>
     
     )
 
