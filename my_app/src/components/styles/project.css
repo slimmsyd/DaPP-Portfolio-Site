@@ -277,11 +277,21 @@ textarea{
 
 }
 
+@media  screen and (max-height: 690px) {
+    .body {
+        padding-bottom: 30rem;
+    }
+
+    
+}
+
 @media screen and (max-width: 1024px) {
     .project_Card { 
         height: 85%;
     }
-    
+    .mintSection {
+        padding-bottom: 10rem;
+    }
 }
 
 @media screen and (max-width: 524px) { 
