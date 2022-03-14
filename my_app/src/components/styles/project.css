@@ -267,6 +267,16 @@ textarea{
 
 /* MOBILE RESPONSIVENSS */
 
+@media screen and (max-height: 910px) { 
+    .body {
+        padding-bottom: 20rem;
+    }
+    .skills { 
+        padding-top: 10rem;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
     .project_Card { 
         height: 85%;
