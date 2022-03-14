@@ -38,6 +38,10 @@
 
 .social_Links li { 
     padding: 0 2rem;
+    ;
+}
+ .social_Links {
+     padding: 0;
 }
 
 .wrapper_Description { 
@@ -57,10 +61,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-
-
-
-
+    max-width: 100%;
+}
+.img_Heading img { 
+    width: fit-content;
+    height: 100%;
+    object-fit: contain;
 }
 
 .article { 
@@ -73,7 +79,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+.article_Wrapper article { 
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .article_Wrapper img {   
     position: absolute;
@@ -108,4 +119,18 @@ header  {
     width: 900px;
 }
 
+}
+
+@media  screen and (max-width: 524px) {
+.wrapper header { 
+    font-size: 54px !important;
+    width: 100%;
+
+}
+.wrapper_Layout { 
+    flex-direction: column-reverse;
+}
+
+
+    
 }

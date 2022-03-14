@@ -17,7 +17,7 @@ import Facebook from '../Images/FaceBook.png';
 
 import Project from './Projects';
 import MintButton from './Mint';
-import Contact from './Contact';
+import Contact from './Contact.tsx';
 
 export default function Home() { 
 const itemToScroll = useRef(null);
@@ -48,9 +48,9 @@ const itemToScroll = useRef(null);
 
     <div className = "socials">
       <ul>
-        <li><img src = {Facebook}></img></li>
-        <li><img src = {Twitter}></img></li>
-        <li><img src = {Instagram}></img></li>
+        <li><a href = ""><img src = {Facebook}></img></a></li>
+        <li><a href = "https://twitter.com/slimmsyd"><img src = {Twitter}></img></a></li>
+        <li><a href = ""></a><img src = {Instagram}></img></li>
       </ul>
       
       </div>

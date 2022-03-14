@@ -96,13 +96,21 @@
     position: absolute;
 }
 
-.blog_Div { 
 
-}
 
     
 }
 
+@media screen and (max-width: 524px) {
+
+    .blog_Heading h1 { 
+        font-size: 54px;
+    }
+    .blog_Div { 
+        margin: 5rem 0!important;
+    }
+    
+}
 @media  screen and (max-width: 1024px) {
 .blog_Div { 
     margin: 5rem 0 0 10rem;

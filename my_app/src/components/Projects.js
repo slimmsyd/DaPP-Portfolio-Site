@@ -27,7 +27,7 @@ export default function Project() {
         <section className = "projects">
                <div className = "whatIDo">
                     <h2> Some Things I Built </h2>
-                    <a href =  "#">Click Here To Github</a>
+                    <a href =  "https://github.com/slimmsyd">Click Here To Github</a>
                     </div>
 
                 <div className = "main_Card">

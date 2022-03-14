@@ -381,13 +381,6 @@ h4 {
     }
 }
 
-@media screen and (max-height: 990px) { 
-  
-    .body { 
-        padding-bottom: 30rem;
-    }
-  
-   
-}
+
 
 /* MOBILE RESPONSIVESNESS */
